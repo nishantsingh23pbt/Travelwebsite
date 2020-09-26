@@ -4,17 +4,17 @@
 }
 @font-face{
     font-family: "allessa";
-    src: url("./fonts/Allessa.ttf");
+    src: url("../fonts/Allessa.ttf");
     font-style: normal;
 }
 @font-face{
     font-family: "forefarmer";
-    src: url("./fonts/ForefarmersDemoRegular-1LpB.ttf");
+    src: url("../fonts/ForefarmersDemoRegular-1LpB.ttf");
     font-style: normal;
 }
 @font-face{
     font-family: "brokenz";
-    src: url("./fonts/Brokenz-BWa0d.ttf");
+    src: url("../fonts/Brokenz-BWa0d.ttf");
     font-style: normal;
 }
 
@@ -213,7 +213,7 @@
     align-items: center;
 }
 #about .content-about{
-    width: 700px;
+    width: 65%;
 }
 #about .content-about h1{
     text-align: center;
@@ -536,6 +536,15 @@ form button{
     }
     #home .home-content p{
         font-size: 16px;
+    }
+    #about .content-about{
+        width: 90%;
+    }
+    #about .content-about h1{
+        font-size: 60px;
+    }
+    #about .content-about p{
+        font-size: 15px;
     }
     #photos{
         background: none;
