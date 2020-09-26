@@ -202,6 +202,30 @@
 }
 /*------end of home page ------- */
 
+/*footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to right, black,rgb(44, 42, 42));
+}
+.footer .container-footer h1{
+    color: gold;
+}
+.footer .container-footer span{
+    color: whitesmoke;
+}
+.footer .container-footer p{
+    color: whitesmoke;
+    position: relative;
+    right: 15px;
+}
+.footer .container-footer h2{
+    color: white;
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
 
 /*----about page------ */
 #about{
