@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+                
+                <img src="./Images/logo.png">
+            </div>
+            <div class="nav-list">
+              <div class="hamburger"><div class="bar"></div></div>
+              <ul>
+                <li><a class="nav-link" href="./index.html" data-after="Home" >Home</a></li>
+                <li><a class="nav-link" href="./about.html" data-after="About" >About</a></li>
+                <li><a class="nav-link" href="./destination.html" data-after="Destinations">Explore</a></li>
+                <li><a class="nav-link" href="./photos.html" data-after="Photos" >Photos</a></li>
+                <li><a class="nav-link" href="./facts.html" data-after="Facts">Facts</a></li>
+                <li><a class="nav-link" href="./blogs.html" data-after="Blog" >Blogs</a></li>
+                <li><a class="active nav-link" href="./contact.html" data-after="Contact">Contact</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="upper-contact">
+            <div class="background-upper"></div>
+            <h1>Get in Touch</h1>
+            <h3>We'd <i class="fa fa-heart" aria-hidden="true"></i> to help you.</h3>
+        </div>
+        <div class="lower-contact">
+
+            <h1 id="success"></h1>
+            <form id="contact-form">
+                <input name="name" type="name" placeholder="Your Name" required=true>
+                <input name="email" type="email" placeholder="Email" required=true>
+                <input name="subject" type="subject" placeholder="Subject" required=true>
+                <textarea name="messgae" type="message" placeholder="Message..." required=true rows="4"></textarea>
+                <button name="submit">Send Message</button>
+
+            </form>
+        </div>
+    </section>
+
+
+    <script src="javascript/hamburger.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_nqx8HQo8RQGHIkpqfXMEs");
+    })();
+    </script>
+    <script src="./javascript/contact.js"></script>
+</body>
+</html>
