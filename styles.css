@@ -4,17 +4,17 @@
 }
 @font-face{
     font-family: "allessa";
-    src: url("../fonts/Allessa.ttf");
+    src: url("./fonts/Allessa.ttf");
     font-style: normal;
 }
 @font-face{
     font-family: "forefarmer";
-    src: url("../fonts/ForefarmersDemoRegular-1LpB.ttf");
+    src: url("./fonts/ForefarmersDemoRegular-1LpB.ttf");
     font-style: normal;
 }
 @font-face{
     font-family: "brokenz";
-    src: url("../fonts/Brokenz-BWa0d.ttf");
+    src: url("./fonts/Brokenz-BWa0d.ttf");
     font-style: normal;
 }
 
